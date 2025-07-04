@@ -11,7 +11,7 @@ public class BookWriter {
 
         try{
             mapper.writeValue(new File("book.json"), book);
-            System.out.println("Book saved to bok.json");
+            System.out.println("Book saved to book.json");
         } catch (IOException e) {
             System.out.println("Error..." + e.getMessage());
         }
